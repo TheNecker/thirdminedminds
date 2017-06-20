@@ -1,4 +1,4 @@
-print "Hello World."
+print "Hello."
 
 p 1
 p 2
