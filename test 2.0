@@ -1,0 +1,6 @@
+	(1..100).each{|i|
+		x = ''
+		x += 'mined' if i%3==0 
+		x =+ 'minds' if i%5==0
+		puts (x.empty? ? i : x);
+	}
