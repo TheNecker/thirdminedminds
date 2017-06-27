@@ -1,7 +1,7 @@
 puts "Hello and welcome to neckers pizzaria, how many pies would you like?"
 
 def size 
-	size = ["Small_pizza", "Medium pizza", "Large pizza"].sample 
+	size = ["Small pizza", "Medium pizza", "Large pizza"].sample 
 end 
  
 
