@@ -1,10 +1,9 @@
-puts "Hello and welcome to neckers pizzaria, how many pies would you like?"
+puts "Hello and welcome to neckers pizzaria, our pizza is $10 dollars a piece, how many pies would you like?"
 
-def size 
+def size
 	size = ["Small pizza", "Medium pizza", "Large pizza"].sample 
 end 
  
-
 def crust 
 	crust = ["Stuffed", "Normal", "Pan"].sample
 end 
@@ -34,8 +33,12 @@ def veggies
 end 
 
 x = gets.chomp.to_i
-
+pizza = 0 
 x.times do 
+puts 
+pizza += 1
+print pizza 
+puts '' 
 	puts size 
 	puts crust
 	puts sauces
@@ -44,5 +47,4 @@ x.times do
 	puts meats 
 	puts veggies
 	puts 
-	puts
 end 
