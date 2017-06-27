@@ -1,6 +1,11 @@
-def Division (a, b)
-	return a / b 
-	b < 0
-end 
+def Division(num_1,num_2)
 
-puts Division(4, 2)
+	puts "#{num_1}/#{num_2} = #{num_1 / num_2}"
+end 
+print "What is your first number?"
+num_1 = gets.chomp.to_i
+puts "Ok, and your second number?"
+num_2 = gets.chomp.to_i
+
+
+Division(num_1,num_2) 

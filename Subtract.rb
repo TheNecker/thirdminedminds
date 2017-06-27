@@ -1,5 +1,11 @@
-def Subtract (a, b)
-	return a - b 
-end 
+def Subtraction(num_1,num_2)
 
-puts Subtract(3, 2)
+	puts "#{num_1}-#{num_2} = #{num_1 - num_2}"
+end 
+print "What is your first number?"
+num_1 = gets.chomp.to_i
+puts "Ok, and your second number?"
+num_2 = gets.chomp.to_i
+
+
+Subtraction(num_1,num_2) 
